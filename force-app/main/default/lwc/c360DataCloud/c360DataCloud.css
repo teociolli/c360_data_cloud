@@ -1,0 +1,52 @@
+html {
+    font-family: "Salesforce Sans";
+}
+.slds-card {
+    background: rgb(48,113,157);
+    background-image: url(https://etiennedoe-220920-477-demo.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0687Q000003ctYn&operationContext=DELIVERY&contentId=05T7Q00000IZSOp&page=0&d=/a/7Q0000004HI6/nNSz7Xc.pIy0KwjRkgxcyBFA2N6RnepPOcJzRuVoTws&oid=00D7Q00000BStBw&dpt=null&viewId=), linear-gradient(180deg, rgba(48,113,157,1) 25%, rgba(111,159,178,1) 68%, rgba(99,152,170,1) 94%);
+    color: white;
+    font-family: "Salesforce Sans";
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;    
+}
+
+.slds-text-title {
+    color: white;
+}
+
+.my-icons {
+    --sds-c-icon-color-foreground-default: white;
+}
+
+.my-title-color {
+    opacity: 0.75;
+}
+
+.my-line {
+    opacity: 0.5;
+    margin: 20px 15px;
+}
+
+.my-bar {
+    opacity: 0.8;
+    --lwc-progressBarColorBackgroundFill: white;
+    --lwc-progressBarColorBackground: #bbb;
+    margin-top: 5px;
+}
+
+.my-ring {
+    transform: scale(6) translate(1em,1em);
+    position: absolute
+}
+
+.slds-grid_align-end {
+    justify-content: flex-start !important;
+}
+
+.my-height {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
