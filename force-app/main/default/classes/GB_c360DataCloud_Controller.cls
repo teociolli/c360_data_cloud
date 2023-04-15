@@ -25,13 +25,5 @@ public with sharing class GB_c360DataCloud_Controller {
         return [
             select Id, Name from Account where ID = :accountId
         ];
-
-
-        public class wrapperino{
-            public string name;
-            public string accountId;
-
-        }
-    }
- 
+         
 }
