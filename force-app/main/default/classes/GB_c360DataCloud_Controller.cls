@@ -27,3 +27,4 @@ public with sharing class GB_c360DataCloud_Controller {
         ];
          
 }
+}
