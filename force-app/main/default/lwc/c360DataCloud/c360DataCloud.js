@@ -8,11 +8,11 @@ export default class c360DataCloud extends LightningElement {
     @api Avatar = 'https://www.lightningdesignsystem.com/assets/images/avatar2.jpg';
     
     @api Attr1Label ='Customer ID';
-    @api Attr1Value = '99999';
+    @api Attr1Value = '99900';
     @api Attr1Icon = 'utility:identity';
 
     @api Attr2Label ='Email Address';
-    @api Attr2Value = 'demo@example.com';
+    @api Attr2Value = 'your@email.com';
     @api Attr2Icon = 'utility:email';
 
     @api Attr3Label ='Loyalty Status';

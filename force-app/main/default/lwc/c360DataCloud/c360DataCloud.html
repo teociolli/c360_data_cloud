@@ -27,7 +27,9 @@
                         <div class="slds-text-tile my-title-color">{Attr1Label}</div>
                     </div>
                     <div class="slds-col">
-                        <div class="slds-text-title_bold">{Attr1Value}</div>
+                        <template if:true={pAccount}>
+                            <div class="slds-text-title_bold">{pAccount.Unified__c}</div>
+                        </template>                        
                     </div>
                 </div>
 
@@ -39,7 +41,9 @@
                         <div class="slds-text-tile my-title-color">{Attr2Label}</div>
                     </div>
                     <div class="slds-col">
-                        <div class="slds-text-title_bold">{Attr2Value}</div>
+                        <template if:true={pAccount}>
+                            <div class="slds-text-title_bold">{pAccount.PersonEmail}</div>
+                        </template>    
                     </div>
                 </div>
                 
@@ -91,7 +95,9 @@
                         <div class="slds-text-tile my-title-color">{Attr5Label}</div>
                     </div>
                     <div class="slds-col">
-                        <div class="slds-text-title_bold">{Attr5Value}</div>
+                        <template if:true={pAccount}>
+                            <div class="slds-text-title_bold">{pAccount.Customer_Since__c}</div>
+                        </template>  
                     </div>
                 </div>
             </div>
