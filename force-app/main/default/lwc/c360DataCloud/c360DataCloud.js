@@ -15,7 +15,7 @@ export default class c360DataCloud extends LightningElement {
     @api Attr2Value = 'your@email.com';
     @api Attr2Icon = 'utility:email';
 
-    @api Attr3Label ='Loyalty Status';
+    @api Attr3Label ='Loyalty Status22';
     @api Attr3Value = 'Silver';    
     @api Attr3Icon = 'utility:favorite';
     

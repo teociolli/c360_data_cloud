@@ -9,6 +9,6 @@ public with sharing class GB_c360DataCloud_Controller {
              return null;
          }
          
-        return [select Id, Name from Account where ID = :accountId];
+        return [select Id, Name, AccountNumber from Account where ID = :accountId];
          }
 }
